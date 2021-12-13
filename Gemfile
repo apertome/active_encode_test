@@ -55,4 +55,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "active_encode", "~> 0.7.0", path: "/home/mj82/src/active_encode"
+# gem "active_encode", "~> 0.7.0", path: "/home/mj82/src/active_encode"
+gem 'active_encode', git: "https://github.com/samvera-labs/active_encode", branch: 'master'

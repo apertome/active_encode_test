@@ -1,9 +1,19 @@
-PATH
-  remote: /home/mj82/src/active_encode
+# PATH
+#   remote: /home/mj82/src/active_encode
+#   specs:
+#     active_encode (0.7.0)
+#       rails
+#       sprockets (< 4)
+
+GIT
+  remote: https://github.com/samvera-labs/active_encode
+  revision: 58edbae2d5f6d00a33f39863a75a8cd927f799e1
+  branch: master
   specs:
     active_encode (0.7.0)
       rails
       sprockets (< 4)
+
 
 GEM
   remote: https://rubygems.org/
